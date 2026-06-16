@@ -20,7 +20,7 @@
     quote_accent:["— for our team, our materials and our engines.","— voor ons team, ons materiaal en onze motoren."],
     about_eyebrow:["Our Story","Ons verhaal"],
     about_p1:["Founded by Karel Daems in the 1980s and taken over by his son Jan Daems in 2007, Daems Racing has spent nearly four decades at the sharp end of European karting.","Opgericht door Karel Daems in de jaren '80 en in 2007 overgenomen door zijn zoon Jan Daems, staat Daems Racing al bijna vier decennia aan de top van de Europese karting."],
-    about_p2:["A specialist in Rotax engines and Tony Kart chassis, Jan raced alongside names like Jan Heylen and Kimi Räikkönen before building the team into one of the most respected names in the paddock.","Als specialist in Rotax-motoren en Tony Kart-chassis reed Jan samen met namen als Jan Heylen en Kimi Räikkönen, voordat hij het team uitbouwde tot een van de meest gerespecteerde namen in de paddock."],
+    about_p2:["A specialist in Rotax engines and LN Kart chassis, Jan raced alongside names like Jan Heylen and Kimi Räikkönen before building the team into one of the most respected names in the paddock.","Als specialist in Rotax-motoren en LN Kart-chassis reed Jan samen met namen als Jan Heylen en Kimi Räikkönen, voordat hij het team uitbouwde tot een van de meest gerespecteerde namen in de paddock."],
     stat_years:["Years in karting","Jaar in de karting"],
     stat_all_num:["All","Alle"],
     stat_all:["Categories · MiniMax → DD2","Categorieën · MiniMax → DD2"],
