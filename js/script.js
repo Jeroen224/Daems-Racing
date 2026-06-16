@@ -24,8 +24,8 @@
     stat_years:["Years in karting","Jaar in de karting"],
     stat_all_num:["All","Alle"],
     stat_all:["Categories · MiniMax → DD2","Categorieën · MiniMax → DD2"],
-    stat_gf:["Grand-Final category winner developed","Grand-Final categoriewinnaar opgeleid"],
-    stat_gf_name:["Mark Kimber · RMC Grand Finals","Mark Kimber · RMC Grand Finals"],
+    stat_gf_num:["Multiple","Meerdere"],
+    stat_gf:["Championship-winning team","Kampioenschap winnend team"],
     what_eyebrow:["What we do","Wat we doen"],
     what_title:["Three ways to go faster","Drie manieren om sneller te gaan"],
     card1_t:["Racing Team","Raceteam"],
@@ -38,12 +38,12 @@
     team_eyebrow:["The grid","De grid"],
     team_title:["Our drivers","Onze rijders"],
     f_all:["All","Alle"],
-    champ_eyebrow:["Championships & results","Kampioenschappen & resultaten"],
-    champ1:["BNL Karting Series — competitor since the beginning","BNL Karting Series — van bij het begin aanwezig"],
-    champ2:["RMC Euro Trophy — podiums","RMC Euro Trophy — podiums"],
-    champ3:["Winter Cup Rotax · RMC International Trophy","Winter Cup Rotax · RMC International Trophy"],
-    champ4:["RMC Grand Finals — 3-category winner developed","RMC Grand Finals — 3-categorie winnaar opgeleid"],
-    champ5:["National Series Karting (France) — since 2023","National Series Karting (Frankrijk) — sinds 2023"],
+    champ_eyebrow:["2025 Season · Championships & results","Seizoen 2025 · Kampioenschappen & resultaten"],
+    champ1:["Rotax Grand Finals Winner — DD2","Rotax Grand Finals Winnaar — DD2"],
+    champ2:["Rotax Grand Finals 3rd Place — Senior","Rotax Grand Finals 3e Plaats — Senior"],
+    champ3:["BNL Champion — DD2","BNL Kampioen — DD2"],
+    champ4:["BNL Vice Champion — Senior Max","BNL Vicekampioen — Senior Max"],
+    champ5:["RMC Germany Champion","RMC Duitsland Kampioen"],
     news_eyebrow:["From the paddock","Uit de paddock"],
     news_title:["Latest news","Laatste nieuws"],
     follow_fb:["Follow on Facebook","Volg op Facebook"],
@@ -148,6 +148,10 @@
       slides[slideIdx].style.opacity = '1';
     }, 5200);
   }
+
+  /* ============ ABOUT VIDEO AUTOPLAY ============ */
+  var heroVid = document.querySelector('.dr-story-img video');
+  if(heroVid){ heroVid.muted = true; heroVid.loop = true; heroVid.playsInline = true; heroVid.play().catch(function(){}); }
 
   /* ============ COUNTDOWN ============ */
   var cdTarget = new Date('2026-06-20T09:00:00').getTime();
